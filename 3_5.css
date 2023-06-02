@@ -1,0 +1,46 @@
+.tp3_5{
+    display:flex; 
+    flex-direction: row;
+    gap:10px;
+    box-shadow:10px 5px 5px rgb(0, 0, 0,20%);
+}
+.formcontainer{
+    display:flex ;
+    flex-direction: column;
+    padding:10rem 10rem;
+}
+.right{
+    width: 47%;
+    height:auto;
+    background-image: url(Capture.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gogle{
+    padding:0.6rem 0;
+    padding-left:40px;
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+    border:2px solid rgb(127, 127, 127,40%);
+}
+.formcontainer span{
+    margin:0 1rem;
+}
+hr{
+    width: 47%;
+    margin:1rem 0;
+    color:rgb(133, 132, 132,20%);
+}
+.loginform input{
+    font-size: 1rem;
+    padding:0.6rem 0;
+    padding-left:10px;
+}
+.googlelogo{
+    position: absolute;
+    width: 1.2rem;
+    left:30%;
+    top: 47%;
+    transform: translateY(-50%)
+}

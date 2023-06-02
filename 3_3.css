@@ -1,0 +1,110 @@
+.tp3_3{
+    display:flex;
+    flex-direction: column;
+}
+.tp3_3 input{
+    padding-left: 5px;
+    width: fit-content;
+    margin-top: 1.5rem;
+    border: 2px solid rgb(217, 217, 217);
+    outline:none;
+    border-radius: 6px;
+}
+.tp3_3 input::placeholder{
+    color:black;
+    opacity: 30%;
+}
+.large input{
+    padding:5px;
+    padding-left:30px;
+}
+.large i{
+    position: absolute;
+    left: 0.8em;
+    top:55%;
+}
+.default input{
+    padding-left:30px;
+}
+.default i{
+    position: absolute;
+    left: 0.8em;
+    top:55%;
+}
+.small input{
+    height:1.2rem;
+    padding-left:30px;
+}
+.small i{
+    position: absolute;
+    left: 0.8em;
+    top:57%;
+}
+/*style icon*/
+.styleinput1{
+    appearance: none;
+    -moz-appearance: textfield;
+}
+.phonenumber{
+    width: fit-content;
+}
+.styleinput21{
+    appearance: none;
+    -moz-appearance: textfield;
+}
+.styleinput22{
+    appearance: none;
+    -moz-appearance: textfield;
+}
+.tp3_3 .styleinput21{
+    border: 2px solid rgb(217, 217, 217);
+    padding-left:10px;
+    border-radius: 8px 0px 0px 8px;
+}
+.tp3_3 .styleinput22{
+    border: 2px solid rgb(217, 217, 217);
+    border-left:none;
+    padding-left:10px;
+    border-radius: 0px 8px 8px 0px;
+}
+/*input search text*/
+.tp3_3 .styleinput32{
+    border-left:none;
+    border-right:none;
+    border-radius:0;
+}
+.tp3_3 .styleinput31{
+    border: 2px solid rgb(217, 217, 217);
+    width: 10%;
+    background-color: rgb(217, 217, 217,20%);
+    padding-left:10px;
+    border-radius: 8px 0px 0px 8px;
+}
+.tp3_3 .styleinput33{
+    border: 2px solid rgb(217, 217, 217);
+    padding-left:30px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: rgb(217, 217, 217,20%);
+}
+.searchtext i{
+    position: absolute;
+    top: 70%;
+    right: 36%;
+    transform: translateY(-50%);
+}
+.tp3_3 .inputbtn1{
+    border: 2px solid rgb(217, 217, 217);
+    padding-left:10px;
+    border-right:none;
+    border-radius: 8px 0px 0px 8px;
+}
+.tp3_3 .inputbtn2{
+    border: 2px solid #1677ff;
+    border-radius: 0px 8px 8px 0px;
+    box-shadow: 0 2px 0 rgba(5,145,255,.1);
+    color:white;
+    font-weight: 400;
+    font-size: 1rem;
+    padding:3px 22px;
+    background-color: #1677ff;
+}

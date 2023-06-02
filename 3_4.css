@@ -1,0 +1,58 @@
+/*layout1*/
+.tp3_4{
+    display:flex; 
+    gap:10px;
+}
+.cont{
+    width: 100%;
+    font-weight: 200;
+    font-size: 0.9rem;
+    text-align: start;
+
+}
+.layout1 div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+}
+.layout1{
+    background-color: green;
+    display:flex;
+    flex-direction: column;
+    padding:1rem;
+    gap:1rem;
+    height:27rem;
+}
+.layout2 div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+}
+.layout2{
+    background-color: green;
+    display:flex;
+    flex-direction: column;
+    padding:1rem;
+    gap:1rem;
+    height:27rem;
+}
+.layout3{
+    background-color: green;
+    display:flex;
+    flex-direction: column;
+    padding:1rem;
+    gap:1rem;
+    height:27rem;
+}
+.layout1 div{
+    padding:0.5rem;
+    background-color: rgb(119, 209, 119);
+}
+.layout2 div{
+    padding:0.5rem;
+    background-color: rgb(119, 209, 119);
+}
+.container{
+    padding:0.5rem;
+    background-color: rgb(119, 209, 119);
+}

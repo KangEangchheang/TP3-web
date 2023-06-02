@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="3_1.css">
+    <link rel="stylesheet" href="3_2.css">
+    <link rel="stylesheet" href="3_3.css">
+    <link rel="stylesheet" href="3_4.css">
+    <link rel="stylesheet" href="3_5.css">
+</head>
+<body>
+    <header>TP3.1</header>
+    <div class="tp3_1">
+        <h>Basic Button:</h>
+        <div class="basic_button">
+            <button class="pbtn">Primary Button</button>
+            <button class="dbtn">Default Button</button>
+            <button class="dabtn">Dashed Button</button>
+            <button class="tbtn">Text Button</button>
+            <button class="lbtn">Link Button</button>
+        </div>
+        <h>Rounded Button:</h>
+        <div class="Roundbtn">
+            <button class="_1">🔍︎</button>
+            <button class="_2">A</button>
+            <button class="_3">🔍︎ Search</button>
+            <button class="_4">🔍︎</button>
+            <button class="_5">🔍︎ Search</button>
+            <button class="_4">🔍︎</button>
+            <button class="_5">🔍︎ Search</button>
+            <button class="_8">🔍︎</button>
+            <button class="_9">🔍︎ Search</button>
+            <button class="_10">🔍︎</button>
+        </div>
+        <h>Block buttons:</h>
+        <div class="blockbtn">
+            <button class="pb">Primary</button>
+            <button class="deb">Default</button>
+            <button class="dab">Dashed</button>
+            <button class="dib">disabled</button>
+            <button class="tb">text</button>
+            <button class="lb">Link</button>
+        </div>
+    </div>
+    <header>TP3.2</header>
+    <div class="tp3_2">
+        <h>Horizontal buttons</h>
+        <div class="horizontal">
+            <button class="hbtnl">Left</button>
+            <button class="hbtnm">Middle</button>
+            <button class="hbtnr">Right</button>
+        </div>
+        <div class="horizontal">
+            <button class="btnl">1</button>
+            <button class="btnm">2</button>
+            <button class="btnm">3</button>
+            <button class="btnr" style="background-color: gray; color:white;">4</button>
+        </div>
+        <h>Vertical</h>
+        <div class="vertical">
+            <button class="vtbtn">Button</button>
+            <button class="vmbtn">Button</button>
+            <button class="vmbtn">Button</button>
+            <button class="vmbtn">Button</button>
+            <button class="vmbtn">Button</button>
+            <button class="vbbtn">Button</button>
+        </div>
+    </div>
+    <header>TP3.3</header>
+    <div class="tp3_3">
+        <h>Basic Input</h>
+        <input placeholder="Basic usage" type="text">
+        <h>Icon input</h>
+        <div style="display: flex; flex-direction: column;" class="iconInput">
+            <div class="large" style="position: relative;">
+                 <input placeholder="large size" type="text">
+                 <i class="fa-regular fa-user"></i>
+            </div>
+           <div class="default" style="position: relative;">
+                <input  placeholder="default size" type="text">
+                <i class="fa-regular fa-user"></i>
+           </div>
+           <div class="small" style="position: relative;">
+                <input  placeholder="small size" type="text">
+                <i class="fa-regular fa-user"></i>
+           </div>
+        </div>
+        <h>Styled input</h>
+        <div class="styleInput">
+            <input class="styleinput1" type="number">
+            <div class="phonenumber" style="display:flex">
+                <input class="styleinput21" style="width: 15%;" type="number" >
+                <input class="styleinput22" type="number" >
+            </div>
+            <div class="searchtext" style="position:relative; display:flex; width: fit-content;">
+                <input class="styleinput31" type="text"  value="https://">
+                <input class="styleinput32" type="text" placeholder="Input search text">
+                <input class="styleinput33" type="submit" value="">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="inputbtn" style="display:flex;">
+                <input class="inputbtn1" type="text"placeholder="combine input and button">
+                <input class="inputbtn2" type="submit" value="Submit">
+            </div>
+        </div>
+    </div>
+    
+    <header>TP3.4</header>
+    <div class="tp3_4">
+        <div class="cont" style="width: 30%;">
+            <h>Layout #1</h>
+            <div class="layout1">
+                <div>Page Header</div>
+                <div>Nav</div>
+                <div>
+                    Article
+                    <div style="background-color: rgb(222, 243, 227);">Article Header</div>
+                    <div style="background-color: rgb(222, 243, 227); height:5rem">Main</div>
+                </div>
+                <div>Section</div>
+                <div>Aside</div>
+                <div>Footer</div>
+            </div>
+        </div>
+        <div class="cont"style="width: 50%;">
+            <h>Layout #2</h>
+            <div class="layout2">
+                <div>Page Header</div>
+                <div>Nav</div>
+                <div style="display:flex;flex-direction:row;padding:0;background-color:transparent;gap:1.5rem;">
+                    <div style="width: 60%;">
+                    Article
+                        <div style="background-color: rgb(222, 243, 227);">Article Header</div>
+                        <div style="background-color: rgb(222, 243, 227); height:7rem">Main</div>
+                    </div>
+                    <div style="width: 40%;">Aside</div>
+                </div>
+                
+                <div style="display: flex; flex-grow: 4;">Section</div>
+                <div>Footer</div>
+            </div>
+        </div>
+        <div class="cont"style="width: 80%;">
+            <h>Layout #3</h>
+            <div class="layout3">
+                <div class="container">Page Header</div>
+                <div class="container">Nav</div>
+                <div style="background-color: transparent; display:flex; gap:1rem;">
+                    <div style="display:flex; gap: 1rem; flex-direction: column; width: 50%;">
+                        <div class="container" style="display:flex; gap:1rem;flex-direction: column;">
+                            Article 
+                            <div class="container"style="background-color: rgb(222, 243, 227);">Article Header</div>
+                            <div class="container"style="background-color: rgb(222, 243, 227); height:6rem">Main</div>
+                        </div>
+                        <div class="container" style="display:flex;flex-grow:5;height:3rem;">Section</div>
+                    </div>
+                    <div style="display:flex;width:50%;gap:1rem;flex-direction: column;">
+                        <div style="display:flex;gap:1rem;align-content:center;flex-direction: row;">
+                            <div class="container" style="width: 50%; flex-grow:5;">Aside</div>
+                            <div class="container"style="width: 50%;flex-grow:5;">Aside</div>
+                        </div>
+                        <div class="container" style="flex-grow:5;">Aside</div>
+                    </div>
+                </div>
+                <div class="container">Footer</div>
+            </div>
+        </div>
+    </div>
+    <header>TP3.5</header>
+    <div class="tp3_5">
+        <div class="left" style="width: 53%;display:flex;flex-direction: column;">
+            <div class="Logo" style="display:flex;align-items: center;gap:10px;">
+                <img style="width: 2rem;border-radius: 8px;" src="https://images.saasworthy.com/horizonuipro_41788_logo_1673588982_qn1fs.jpg">
+                <b style="font-size:1.8rem;">HorizenUI</b>
+            </div>
+            <div class="formcontainer">
+                <h><b>Welcome back!</b></h>
+                <p style="opacity: 40%;font-weight: 400;">Please enter your credentials to access your account</p>
+                <div style="position: relative;">
+                    <img class="googlelogo" src="https://img.freepik.com/free-icon/search_318-265146.jpg">
+                    <button class="gogle">Sign in with Google</button>
+                </div>
+                <div style="display:flex; align-items:center;margin-top: 1rem;">
+                    <hr>
+                    <span> Or </span>
+                    <hr>
+                </div>
+                <form class="loginform" style="display:flex;flex-direction:column;gap:1rem;">
+                    <label for="emails"><b>Email*</b></label>
+                    <input type="email"id="emails" placeholder="mail@Example.com">
+                    <label for="passwords"><b>Password*</b></label>
+                    <input type="password" id="password" placeholder="Min 8 characters" minlength="8">
+
+                    <div class="rmbme" style="display:flex;justify-content: space-between; align-items: center;">
+                        <div style="display:flex;">
+                            <input type="checkbox">
+                            <p>Remember me</p>
+                        </div>
+                        <a href="#forgetpassword" style="text-decoration: none;"><b>Forget password?</b></a>
+                    </div>
+                    <button class="gogle" style="padding:0.7rem 0;background-color: blueviolet;color:white;"><b>Sign in</b></button>
+                    <div style="display:flex;align-items: center;">
+                        <p>Not registered yet?</p><a style="text-decoration: none;" href="#create account"><b>Create an account</b></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="right"></div>
+    </div>
+</body>
+</html>

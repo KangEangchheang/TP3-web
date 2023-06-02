@@ -1,0 +1,88 @@
+.tp3_2{
+    display:flex;/*change visibility*/
+    flex-direction: column;
+    gap:25px;
+}
+.tp3_2 button{
+    font-weight: 400;
+    white-space: nowrap;
+    font-size: 1.1rem;
+    cursor:pointer;
+    touch-action: manipulation;
+    padding:4px 15px;
+}
+.horizontal{
+    display:flex;
+}
+.hbtnr{
+    border: 1px solid transparent;
+    box-shadow: 0 2px 0 rgba(5,145,255,.1);
+    color:white;
+    border-radius:0 9px 9px 0;
+    background-color: #1677ff;
+}
+.hbtnl{
+    border: 1px solid transparent;
+    box-shadow: 0 2px 0 rgba(5,145,255,.1);
+    color:white;
+    border-radius:9px 0 0 9px;
+    background-color: #1677ff;
+}
+.hbtnm{
+    border: 1px solid transparent;
+    border-radius: 0;
+    box-shadow: 0 2px 0 rgba(5,145,255,.1);
+    color:white;
+    background-color: #1677ff;
+}
+.btnl{
+    border: 2px solid gray;
+    box-shadow: 0 2px 0 rgba(5,145,255,.1);
+    color:gray;
+    border-radius:9px 0 0 9px;
+    background-color: rgb(255, 255, 255);
+}
+.btnr{
+    border: 2px solid gray;
+    box-shadow: 0 2px 0 rgba(5,145,255,.1);
+    color:gray;
+    border-radius:0 9px 9px 0;
+    background-color: rgb(255, 255, 255);
+}
+.btnm{
+    border:2px solid gray;
+    border-left: none;
+    box-shadow: 0 2px 0 rgba(5,145,255,.1);
+    color:gray;
+    border-radius:0;
+    background-color: #ffffff;
+}
+/*vertical button*/
+.vertical{
+    display:flex;
+    flex-direction: column;
+}
+.vertical button{
+    width: fit-content;
+}
+.vtbtn{
+    border: 1px solid transparent;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 2px 0 rgba(5,145,255,.1);
+    color:white;
+    background-color: #1677ff;
+}
+.vmbtn{
+    border: 1px solid transparent;
+    border-radius: 0;
+    box-shadow: 0 2px 0 rgba(5,145,255,.1);
+    color:white;
+    background-color: #1677ff;
+}
+.vbbtn{
+    border: 1px solid transparent;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0 2px 0 rgba(5,145,255,.1);
+    color:white;
+    background-color: #1677ff;
+}
